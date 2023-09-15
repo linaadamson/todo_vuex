@@ -1,0 +1,71 @@
+.todo-container {
+  width: 100%;
+  background-color: #011f4b;
+  border-radius: 0.6rem;
+}
+
+.todo-container li {
+  list-style: none;
+}
+
+.todo-container li:not(:last-child) {
+  border-bottom: 0.1rem solid rgb(196, 195, 195);
+}
+
+.header-text {
+  font-size: 6rem;
+  margin-bottom: 5rem;
+}
+
+.no-todos {
+  font-size: 1.8rem;
+  margin: 2rem auto;
+  max-width: 60%;
+}
+
+.todo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1.2rem 2rem;
+  width: 100%;
+}
+
+.todo p {
+  font-size: 1.3rem;
+}
+
+.cross {
+  text-decoration: line-through;
+  color: rgb(176, 176, 176);
+  opacity: 0.5;
+}
+
+.btn-container {
+  display: flex;
+  /* gap: 2rem; */
+}
+
+.btn-container button {
+  border: none;
+  background: none;
+}
+
+.btn-container .complete {
+  border-right: 0.1rem solid white;
+  padding-right: 1.2rem;
+}
+.btn-container .delete {
+  padding-left: 1.2rem;
+}
+
+.btn-container img {
+  width: 1.5rem;
+  height: 1.5rem;
+  object-fit: cover;
+  cursor: pointer;
+}
+/* .btn-container button {
+  width: 1.2rem;
+  height: 1.2rem;
+} */

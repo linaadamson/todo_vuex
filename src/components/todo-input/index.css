@@ -1,0 +1,71 @@
+.todo-input {
+  padding: 0.5rem 1.5rem;
+  font-size: 1.3rem;
+  border: none;
+  background: #011f4b;
+  height: 4rem;
+  width: 36rem;
+  color: white;
+  border-top-left-radius: 0.7rem;
+  border-bottom-left-radius: 0.7rem;
+}
+
+.todo-input:focus {
+  outline: none;
+}
+
+.todo-input::placeholder {
+  font-weight: 400;
+  font-size: 1.3rem;
+  color: rgb(222, 220, 220);
+}
+
+.add-btn {
+  background: #011f4b;
+  border: none;
+  height: 4rem;
+  padding: 1rem;
+  font-size: 1.3rem;
+  border-top-right-radius: 0.7rem;
+  border-bottom-right-radius: 0.7rem;
+}
+
+.add-btn img {
+  width: 1.4rem;
+  height: 1.1rem;
+  cursor: pointer;
+}
+
+.error {
+  color: rgb(183, 17, 17);
+  display: block;
+  font-size: 1.2rem;
+  width: 100%;
+  text-align: left;
+  padding: 0.5rem 0.5rem 0;
+}
+
+@media screen and (max-width: 768px) {
+  .todo-input {
+    padding: 0.5rem 1.5rem;
+    font-size: 1rem;
+    height: 3.6rem;
+    width: 16rem;
+  }
+
+  .add-btn {
+    background: #011f4b;
+    border: none;
+    height: 3.6rem;
+    padding: 1rem;
+    font-size: 1rem;
+  }
+
+  .add-btn img {
+    height: 0.9rem;
+  }
+
+  .error {
+    font-size: 1rem;
+  }
+}
